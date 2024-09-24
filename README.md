@@ -1,4 +1,4 @@
-# Curso Especialista Spring REST
+# Curso Especialista Spring REST da Algaworks
 
 - Etapas de criação do projeto do curso: [PROJETO-ALGAFOOD](PROJETO-ALGAFOOD.md)
 
