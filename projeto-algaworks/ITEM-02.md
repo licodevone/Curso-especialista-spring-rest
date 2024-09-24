@@ -1,4 +1,6 @@
-# Etapas do projeto do sistema Algafood
+# Spring e Injeção de Dependências
+
+# Criando um controller com Spring MVC
 
 > https://app.algaworks.com/aulas/1786/preparando-o-ambiente-de-desenvolvimento-jdk-e-sts-for-eclipse
 
@@ -14,7 +16,8 @@
 
 > https://github.com/algaworks/curso-especialista-spring-rest
 
-[Terminal](TERMINAL.md)
+
+
 
 ## Windows
 
@@ -170,7 +173,6 @@ Maven Gerenciador de bibliotecas Java
 
 ### Como empacotar o projeto
 
-
 ![alt text](image-48.png)
 
 ![alt text](image-49.png)
@@ -181,7 +183,7 @@ Maven Gerenciador de bibliotecas Java
 
 ![alt text](image-53.png)
 
-[PACKAGE](TERMINAL.md)
+[PACKAGE](../terminal/TERMINAL.md)
 
 > Posso utilizar o arquivo ./nvm para utilizar o Maven no terminal
 
@@ -197,30 +199,71 @@ Maven Gerenciador de bibliotecas Java
 
 Rodar o projeto pelo terminal
 
-[RUN](TERMINAL.md)
+[RUN](../terminal/TERMINAL.md)
 
 ![alt text](image-58.png)
 
 ![alt text](image-59.png)
 
+### Instalação de bibliotecas no POM.xml de maneira gráfica
+
+![alt text](image.png)
+
+![alt text](image-69.png)
+
+![alt text](image-1.png)
+
+> Problemas com o parent 2.7.18 então fui para o 3.3.4
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-65.png)
+
+![alt text](image-66.png)
+
+![alt text](image-67.png)
+
+![alt text](image-68.png)
 
 
+# Criando um controller com Spring MVC
 
+# Criar uma classe Java
 
+![alt text](image-13.png)
 
+![alt text](image-14.png)
 
+![alt text](image-15.png)
 
+~~~~java
+package com.algaworks.algafood;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+@Controller
+public class PrimeiroController {
 
+	@GetMapping("/hello")
+	@ResponseBody
+	private String hello() {
+		return "Hello World!";
+	}
+}
 
+~~~~
 
+![alt text](image-17.png)
 
+![alt text](image-18.png)
 
+> Acessar a url: http://localhost:8080/hello
 
-
-
-
+![alt text](image-19.png)
 
 
 
