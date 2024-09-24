@@ -1,6 +1,24 @@
 # Etapas do projeto do sistema Algafood
 
-## Instalação do Java
+> https://app.algaworks.com/aulas/1786/preparando-o-ambiente-de-desenvolvimento-jdk-e-sts-for-eclipse
+
+> https://spring.io/tools
+
+## Ubuntu
+
+### Download e instalação do Java e JDK 
+
+> https://linuxcapable.com/how-to-install-openjdk-17-on-ubuntu-linux/
+
+> https://jdk.java.net/archive/
+
+> https://github.com/algaworks/curso-especialista-spring-rest
+
+[Terminal](TERMINAL.md)
+
+## Windows
+
+### Instalação do Java
 
 OpenJDK da Adoptium, é uma implementação da plataforma Java open source e gratuita, pronta para ser usada em produção.
 
@@ -32,7 +50,7 @@ OpenJDK da Adoptium, é uma implementação da plataforma Java open source e gra
 
 ![alt text](image-26.png)
 
-## 2.5. Criando um projeto Spring Boot com Spring Initializr
+### 2.5. Criando um projeto Spring Boot com Spring Initializr
 
 > Windows -> Preferences -> installed JREs
 
@@ -65,6 +83,23 @@ OpenJDK da Adoptium, é uma implementação da plataforma Java open source e gra
 ![alt text](image-6.png)
 
 ![alt text](image-7.png)
+
+~~~java
+package com.algaworks.algafood;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AlgafoodApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AlgafoodApiApplication.class, args);
+	}
+
+}
+
+~~~
 
 ### Problemas e erros com o projeto
 
