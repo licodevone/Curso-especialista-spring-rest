@@ -6,6 +6,8 @@ Download e instalação do Java e JDK Ubuntu
 
 > https://jdk.java.net/archive/
 
+> https://github.com/algaworks/curso-especialista-spring-rest
+
 ## Instalação do JRE e JDK
 
 ```sh
