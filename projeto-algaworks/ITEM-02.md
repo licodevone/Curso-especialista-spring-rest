@@ -1,7 +1,5 @@
 # Spring e Injeção de Dependências
 
-# Criando um controller com Spring MVC
-
 > https://app.algaworks.com/aulas/1786/preparando-o-ambiente-de-desenvolvimento-jdk-e-sts-for-eclipse
 
 > https://spring.io/tools
@@ -15,9 +13,6 @@
 > https://jdk.java.net/archive/
 
 > https://github.com/algaworks/curso-especialista-spring-rest
-
-
-
 
 ## Windows
 
@@ -227,7 +222,6 @@ Rodar o projeto pelo terminal
 
 ![alt text](image-68.png)
 
-
 # Criando um controller com Spring MVC
 
 # Criar uma classe Java
@@ -265,14 +259,20 @@ public class PrimeiroController {
 
 ![alt text](image-19.png)
 
+# Restart mais rápido da aplicação com DevTools
+
+O Java Class Loader, parte do Java Runtime Environment, carrega dinamicamente classes Java na Java Virtual Machine. Ele reinicia apenas parte do programa que foi modificado facilitando e agilizando a criação de projetos Spring.
+
+![alt text](image-70.png)
+
+![alt text](image-71.png)
+
+# O que é injeção de dependências-IOC(Inversion of Control)?
 
 
+# Representação de pacotes
 
-
-
-
-
-
+![alt text](image-72.png)
 
 
 
